@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone | Music for Everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="nav-box">
+                <a href="#" class="nav-link active">⌂ &nbsp; Home</a>
+                <a href="#" class="nav-link">⌕ &nbsp; Search</a>
+            </div>
+
+            <div class="library">
+                <div class="library-heading">
+                    <h3>☷ Your Library</h3>
+                    <button class="add-btn" aria-label="Add playlist">+</button>
+                </div>
+
+                <div class="playlist">
+                    <h4>Create your first playlist</h4>
+                    <p>It's easy, we'll help you</p>
+                    <button class="white-btn">Create playlist</button>
+                </div>
+
+                <div class="playlist">
+                    <h4>Find your podcasts</h4>
+                    <p>Discover new episodes</p>
+                    <button class="white-btn">Browse podcasts</button>
+                </div>
+            </div>
+
+        </aside>
+
+        <!-- MAIN CONTENT CONTAINER -->
+        <main class="main-content">
+
+            <header class="topbar">
+                <div class="navigation">
+                    <button class="circle-btn" aria-label="Go back">‹</button>
+                    <button class="circle-btn" aria-label="Go forward">›</button>
+                </div>
+
+                <button class="premium-btn">Explore Premium</button>
+            </header>
+
+            <section class="greeting">
+                <h1>Good evening</h1>
+
+                <div class="quick-cards">
+
+                    <div class="quick-card">
+                        <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=200&h=200&fit=crop" alt="Daily Mix cover">
+                        <h3>Daily Mix</h3>
+                    </div>
+
+                    <div class="quick-card">
+                        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=200&h=200&fit=crop" alt="Chill Hits cover">
+                        <h3>Chill Hits</h3>
+                    </div>
+
+                    <div class="quick-card">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop" alt="Trending music cover">
+                        <h3>Trending Music</h3>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- RECENTLY PLAYED -->
+            <section class="music-section">
+                <div class="section-heading">
+                    <h2>Recently played</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="music-cards">
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop" alt="Today's Top Hits album cover">
+                            <button class="card-play" aria-label="Play Today's Top Hits">▶</button>
+                        </div>
+                        <h3>Today's Top Hits</h3>
+                        <p>Fresh music for your day.</p>
+                    </article>
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=400&fit=crop" alt="Chill Vibes album cover">
+                            <button class="card-play" aria-label="Play Chill Vibes">▶</button>
+                        </div>
+                        <h3>Chill Vibes</h3>
+                        <p>Relax and enjoy the moment.</p>
+                    </article>
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400&h=400&fit=crop" alt="Daily Mix album cover">
+                            <button class="card-play" aria-label="Play Daily Mix">▶</button>
+                        </div>
+                        <h3>Daily Mix</h3>
+                        <p>Music picked for you.</p>
+                    </article>
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=400&h=400&fit=crop" alt="Pop Mix album cover">
+                            <button class="card-play" aria-label="Play Pop Mix">▶</button>
+                        </div>
+                        <h3>Pop Mix</h3>
+                        <p>Your favorite pop sounds.</p>
+                    </article>
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=400&fit=crop" alt="Editor's Picks album cover">
+                            <button class="card-play" aria-label="Play Editor's Picks">▶</button>
+                        </div>
+                        <h3>Editor's Picks</h3>
+                        <p>Discover something new.</p>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- MADE FOR YOU -->
+            <section class="music-section">
+                <div class="section-heading">
+                    <h2>Made for you</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="music-cards">
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=400&h=400&fit=crop" alt="Night Drive cover">
+                            <button class="card-play" aria-label="Play Night Drive">▶</button>
+                        </div>
+                        <h3>Night Drive</h3>
+                        <p>Music for late-night journeys.</p>
+                    </article>
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400&h=400&fit=crop" alt="Focus Flow cover">
+                            <button class="card-play" aria-label="Play Focus Flow">▶</button>
+                        </div>
+                        <h3>Focus Flow</h3>
+                        <p>Stay focused and productive.</p>
+                    </article>
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=400&fit=crop" alt="Live Sessions cover">
+                            <button class="card-play" aria-label="Play Live Sessions">▶</button>
+                        </div>
+                        <h3>Live Sessions</h3>
+                        <p>Experience the live music vibe.</p>
+                    </article>
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=400&h=400&fit=crop" alt="Acoustic Mix cover">
+                            <button class="card-play" aria-label="Play Acoustic Mix">▶</button>
+                        </div>
+                        <h3>Acoustic Mix</h3>
+                        <p>Simple sounds, beautiful moments.</p>
+                    </article>
+
+                    <article class="music-card">
+                        <div class="cover">
+                            <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400&h=400&fit=crop" alt="Party Mix cover">
+                            <button class="card-play" aria-label="Play Party Mix">▶</button>
+                        </div>
+                        <h3>Party Mix</h3>
+                        <p>Turn up the energy.</p>
+                    </article>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- BOTTOM MUSIC PLAYER -->
+    <footer class="player">
+
+        <div class="track-info">
+            <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=100&h=100&fit=crop" alt="Current track cover">
+
+            <div class="track-text">
+                <h4>Midnight Vibes</h4>
+                <p>Your favorite artist</p>
+            </div>
+
+            <button class="like-btn" aria-label="Like track">♡</button>
+        </div>
+
+        <div class="player-center">
+
+            <div class="player-controls">
+                <button aria-label="Shuffle">🔀</button>
+                <button aria-label="Previous track">⏮</button>
+                <button class="main-play" aria-label="Play or pause">▶</button>
+                <button aria-label="Next track">⏭</button>
+                <button aria-label="Repeat">↻</button>
+            </div>
+
+            <div class="timeline">
+                <span>0:00</span>
+                <div class="progress-track">
+                    <div class="progress-fill"></div>
+                </div>
+                <span>3:30</span>
+            </div>
+
+        </div>
+
+        <div class="player-extra">
+            <span>♫</span>
+            <span>▤</span>
+            <span>🔊</span>
+            <div class="volume-track">
+                <div class="volume-fill"></div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
